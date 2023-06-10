@@ -1,0 +1,151 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#foo1 {
+    height: 35%;
+    width: 100%;
+    position: absolute;
+}
+
+#foo2 {
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    border-radius: 5px;
+}
+
+#uploadimg{
+    padding-left: 0px;
+    width: 15%;
+}
+
+#foo3 {
+    background-color: lightgray;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    height: 65%;
+}
+
+#foo4 {
+    margin-top: 3%;
+}
+
+.container {
+    margin-top: 3%;
+    position: relative;
+}
+
+.container label {
+    margin-left: 3%;
+}
+
+.container input {
+    padding-right: 5%;
+    float: right;
+    width: 75%;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.container div {
+    float: right;
+    width: 75%;
+    border-radius: 5px;
+    border-color: gray;
+    text-align: center;
+}
+
+.container button {
+    padding-right: 5%;
+    float: left;
+    text-align: center;
+    width: 15%;
+    border-radius: 5px;
+    border-color: gray;
+    margin-left: 5%;
+    align-items: start;
+}
+
+.btn-primary {
+    margin-left: 5%;
+    width: 15%;
+}
+
+.bar1 {
+    width: 70%;
+    height: 70%;
+    top: 10%;
+    left: 15%;
+    position: fixed;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bar2 {
+    text-align: center;
+    width: 30%;
+}
+
+.bar3 {
+    top: 5%;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register-container .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.register-container .input-group label {
+    font-weight: bold;
+}
+
+.register-container .input-group input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.register-container .input-group input[type="submit"] {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.register-container .input-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.register-container .login-link {
+    text-align: center;
+    margin-top: 10px;
+}
