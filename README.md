@@ -6,6 +6,7 @@
 # Installation:
  To get started, you will need to clone the repository from GitHub and follow a few steps to set up the project on your local machine.
 # Important notice:
+****the server is running on localhost:3000 and the client must be running on loclhost:3001, small mistake but better than losing a day for changing from 3000 to 5000.****
 you need to open mongoDB app and connect to mongodb://127.0.0.1:27017/ then create a database named "chatapp"
 **************very vey important**********
 # Installation
